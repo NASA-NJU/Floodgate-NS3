@@ -1,0 +1,7 @@
+2020/02/27
+add 40Gbps rate in lineRateValues and logic in Set function
+int-header.h
+void Set(uint64_t _time, uint64_t _bytes, uint32_t _qlen, uint64_t _rate){}
+
+int-header.cc
+lineRateValues[lineRate]
