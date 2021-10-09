@@ -28,6 +28,8 @@ You can see `config-dcqcn(-ideal/floodagte).ini, config-dctcp(-ideal/floodagte).
 
 > Note that it is FCT statistics of incast and poisson flows in output files. Therefore, we add some bash scripts (e.g., `getStatisticsAll.sh`, `getBuffer.sh`, `getQueuingDelay.sh`) to get more metrics that we used in paper, e.g., poisson/incast FCT, buffer occupancy, and queuing delay.
 > You can type '-h' for help when use these scripts.
+> `getStatisticsAll.sh` calls other scripts to get the overall information, so you can use this script directly.
+
 
 ### Pure poisson
 
