@@ -1,5 +1,5 @@
 if [[ $1 == "-h" ]];then
-	echo "usage: $0 [output file] [path of realtime buffer/bw file dir]"
+	echo "usage: $0 [output file (obtained by redirecting stdout of program)] [path of realtime buffer/bw file dir (configured in configuration file]"
 	echo -e "Attention: \n1. Make sure the required scripts existed at the same path with this script file: cutData.sh, calcuIncastmix.sh, getBuffer.sh, getQueuingTime.sh."
 	echo -e "2. This script only fits leafspine-10ToR-4Core.topo. For other topologies, you need to modify the parameters of \"getBuffer.sh\"."
 else
